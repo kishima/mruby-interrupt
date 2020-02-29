@@ -1,0 +1,7 @@
+name: mruby-interrupt
+description: Interrupt implementation for mruby
+author: KAGEYAMA Katsuhiko
+website: https://github.com/kishima/mruby-interrupt
+protocol: git
+repository: https://github.com/kishima/mruby-interrupt.git
+license: MIT
