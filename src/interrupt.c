@@ -6,6 +6,7 @@ static mrb_value callback_proc[MRB_INTERRUPT_MAX_CB];
 
 // for user code
 void mrb_mruby_interrupt_set_irq(int index){
+  if(index<0 || index>=MRB_INTERRUPT_MAX_CB) return;
   (*_interrupt_flag) |= (1 << index);
 }
 
